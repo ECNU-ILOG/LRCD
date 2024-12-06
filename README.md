@@ -12,7 +12,7 @@ East China Normal University
 
 
 
-<img src='img/Framework.png' />
+<img src='img/Framework.svg' />
 </div>
 
 ------
