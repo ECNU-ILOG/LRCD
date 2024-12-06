@@ -19,7 +19,9 @@ East China Normal University
 
 
 
-:smile_cat: Welcome to LRCD, this is a comprehensive repository specializing in ***OLanguage Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis*** published in KDD 2025.
+:smile_cat: Welcome to LRCD, this is a comprehensive repository specializing in ***Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis*** published in KDD 2025.
+
+
 
 ## 📰 News 
 - [x] [2024.12.6] LRCD v1.0 is released.
