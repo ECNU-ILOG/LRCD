@@ -12,7 +12,7 @@ East China Normal University
 
 
 
-<img src='img/framework.png' />
+<img src='img/Framework.png' />
 </div>
 
 ------
@@ -56,5 +56,5 @@ Then, you can choose different diagnostic methods based on the provided dataset 
 ```shell
 python main.py --method=orcdf --train_file=data/SLP-BIO,data/SLP-PHY --test_file=data/SLP-MAT --seed=0 --batch_size=256 --device=cuda:0 --epoch=20  --lr=2.5e-4 --latent_dim=64 --inter=kancd --ssl_temp=0.5  --ssl_weight=1e-3  --flip_ratio=0.15 --gcn_layers=3 --keep_prob=1.0 --weight_decay=0
 ```
-# LRCD
+
  
