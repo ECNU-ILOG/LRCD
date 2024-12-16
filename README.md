@@ -21,6 +21,9 @@ East China Normal University
 :smile_cat: Welcome to LRCD, this is a comprehensive repository specializing in ***Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis*** published in KDD 2025.
 
 
+> Here, we propose LRCD, a new paradigm: a cognitive diagnosis framework that solely relies on language representation. It is both model-agnostic and scenario-agnostic.
+
+
 # Introduction of LRCD: Challenge, Solution and Insights
 
 ## Challenge
