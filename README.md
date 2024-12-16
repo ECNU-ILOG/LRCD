@@ -88,7 +88,9 @@ You should process datasets by yourself, you need first
 
 > cd data
 
-Noting: Due to some embedding text files being too large, we have zipped them. Before starting to run, you need to unzip all files.
+
+
+Noting: Due to some embedding text files being too large, we have zipped them. Before starting to run, you need to unzip all files. We upload the zip file on Google Drive. https://drive.google.com/file/d/10A8fdmqLXlMyw824_1zj0btaiRQ07mhf/view?usp=drive_link
 
 # Experiments
 
