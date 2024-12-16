@@ -1,0 +1,32 @@
+{'batch_size': 256,
+ 'device': 'cpu',
+ 'dropout': 0.5,
+ 'dtype': torch.float64,
+ 'epoch_num': 20,
+ 'flip_ratio': 0.15,
+ 'gcn_layers': 3,
+ 'inter': 'kancd',
+ 'keep_prob': 1.0,
+ 'latent_dim': 64,
+ 'lr': 0.00025,
+ 'method': 'orcdf',
+ 'noise_ratio': 0,
+ 'orcdf_mode': '',
+ 'seed': 0,
+ 'ssl_temp': 0.5,
+ 'ssl_weight': 0.001,
+ 'test_file': 'data/SLP-MAT',
+ 'train_file': 'data/SLP-BIO,data/SLP-PHY',
+ 'weight_decay': 0.0}
+['data/SLP-BIO', 'data/SLP-PHY'] ['data/SLP-MAT']
+['data/SLP-BIO', 'data/SLP-PHY', 'data/SLP-MAT']
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:36.130816, resuming normal operation.
+<class 'UserWarning'>
+Traceback (most recent call last):
+  File "main.py", line 64, in <module>
+    cd.train_model(batch_size, epoch_num, lr, device)
+  File "D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\model\orcdf.py", line 135, in train_model
+    'all': self.__final_graph(se_graph1, ek_graph1, 'train'),
+  File "D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\model\orcdf.py", line 91, in __final_graph
+    graph = tmp + tmp.T + np.identity(sek_num)
+KeyboardInterrupt

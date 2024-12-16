@@ -1,0 +1,96 @@
+wandb_version: 1
+
+method:
+  desc: null
+  value: orcdf
+train_file:
+  desc: null
+  value: data/SLP-PHY
+test_file:
+  desc: null
+  value: data/SLP-MAT
+epoch_num:
+  desc: null
+  value: 20
+seed:
+  desc: null
+  value: 0
+dtype:
+  desc: null
+  value: torch.float64
+device:
+  desc: null
+  value: cpu
+latent_dim:
+  desc: null
+  value: 64
+batch_size:
+  desc: null
+  value: 256
+lr:
+  desc: null
+  value: 0.00025
+dropout:
+  desc: null
+  value: 0.5
+inter:
+  desc: null
+  value: kancd
+gcn_layers:
+  desc: null
+  value: 3
+keep_prob:
+  desc: null
+  value: 1.0
+noise_ratio:
+  desc: null
+  value: 0
+weight_decay:
+  desc: null
+  value: 0.0
+ssl_temp:
+  desc: null
+  value: 0.5
+ssl_weight:
+  desc: null
+  value: 0.001
+flip_ratio:
+  desc: null
+  value: 0.15
+orcdf_mode:
+  desc: null
+  value: ''
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.18
+    cli_version: 0.16.2
+    framework: huggingface
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1734363943.180164
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 105
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.8.18
+      5: 0.16.2
+      8:
+      - 3
+      - 5
+      13: windows-amd64

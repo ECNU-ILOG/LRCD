@@ -1,0 +1,55 @@
+{'batch_size': 256,
+ 'device': 'cpu',
+ 'dropout': 0.5,
+ 'dtype': torch.float64,
+ 'epoch_num': 20,
+ 'flip_ratio': 0.15,
+ 'gcn_layers': 3,
+ 'inter': 'kancd',
+ 'keep_prob': 1.0,
+ 'latent_dim': 64,
+ 'lr': 0.00025,
+ 'method': 'orcdf',
+ 'noise_ratio': 0,
+ 'orcdf_mode': '',
+ 'seed': 0,
+ 'ssl_temp': 0.5,
+ 'ssl_weight': 0.001,
+ 'test_file': 'data/SLP-MAT',
+ 'train_file': 'data/SLP-PHY',
+ 'weight_decay': 0.0}
+['data/SLP-PHY'] ['data/SLP-MAT']
+['data/SLP-PHY', 'data/SLP-MAT']
+[epoch 0]:
+D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\extract\orcdf.py:100: UserWarning: torch.sparse.SparseTensor(indices, values, shape, *, device=) is deprecated.  Please use torch.sparse_coo_tensor(indices, values, shape, dtype=, device=). (Triggered internally at C:\cb\pytorch_1000000000000\work\torch\csrc\utils\tensor_new.cpp:607.)
+  g = torch.sparse.DoubleTensor(index.t(), values, size)
+average train loss: 0.639135
+average test loss: 0.611999
+auc: 75.99 , acc: 69.06 , doa: 74.31
+[epoch 1]:
+Traceback (most recent call last):
+  File "main.py", line 64, in <module>
+    cd.train_model(batch_size, epoch_num, lr, device)
+  File "D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\model\orcdf.py", line 145, in train_model
+    self.train(lr, self.extractor, self.interfunc, train_loader, device)
+  File "D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\base_model.py", line 101, in train
+    _ = extractor.extract(student_id, exercise_id, 'train')
+  File "D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\extract\orcdf.py", line 120, in extract
+    stu_forward_flip, exer_forward_flip, know_forward_flip = self.__common_forward(
+  File "D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\extract\orcdf.py", line 78, in __common_forward
+    all_emb = self.get_all_emb()
+  File "D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\extract\orcdf.py", line 61, in get_all_emb
+    self.__exercise_emb(self.emb["exercise"]),
+  File "C:\Users\bless\anaconda3\envs\bee\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\bless\anaconda3\envs\bee\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\bless\anaconda3\envs\bee\lib\site-packages\torch\nn\modules\container.py", line 215, in forward
+    input = module(input)
+  File "C:\Users\bless\anaconda3\envs\bee\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\bless\anaconda3\envs\bee\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\bless\anaconda3\envs\bee\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

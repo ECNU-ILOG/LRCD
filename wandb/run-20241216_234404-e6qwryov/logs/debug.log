@@ -1,0 +1,28 @@
+2024-12-16 23:44:04,490 INFO    MainThread:31004 [wandb_setup.py:_flush():76] Current SDK version is 0.16.2
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_setup.py:_flush():76] Configure stats pid to 31004
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_setup.py:_flush():76] Loading settings from C:\Users\bless\.config\wandb\settings
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_setup.py:_flush():76] Loading settings from D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\wandb\settings
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\360MoveData\\Users\\bless\\Desktop\\LRCD试验\\LRCD1216\\LRCD\\main.py', 'program': 'main.py'}
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_init.py:_log_setup():526] Logging user logs to D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\wandb\run-20241216_234404-e6qwryov\logs\debug.log
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_init.py:_log_setup():527] Logging internal logs to D:\360MoveData\Users\bless\Desktop\LRCD试验\LRCD1216\LRCD\wandb\run-20241216_234404-e6qwryov\logs\debug-internal.log
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_init.py:init():566] calling init triggers
+2024-12-16 23:44:04,491 INFO    MainThread:31004 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'method': 'orcdf', 'train_file': 'data/SLP-BIO,data/SLP-PHY', 'test_file': 'data/SLP-MAT', 'epoch_num': 20, 'seed': 0, 'dtype': torch.float64, 'device': 'cpu', 'latent_dim': 64, 'batch_size': 256, 'lr': 0.00025, 'dropout': 0.5, 'inter': 'kancd', 'gcn_layers': 3, 'keep_prob': 1.0, 'noise_ratio': 0, 'weight_decay': 0.0, 'ssl_temp': 0.5, 'ssl_weight': 0.001, 'flip_ratio': 0.15, 'orcdf_mode': ''}
+2024-12-16 23:44:04,492 INFO    MainThread:31004 [wandb_init.py:init():616] starting backend
+2024-12-16 23:44:04,492 INFO    MainThread:31004 [wandb_init.py:init():620] setting up manager
+2024-12-16 23:44:04,493 INFO    MainThread:31004 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-12-16 23:44:04,498 INFO    MainThread:31004 [wandb_init.py:init():628] backend started and connected
+2024-12-16 23:44:04,501 INFO    MainThread:31004 [wandb_init.py:init():720] updated telemetry
+2024-12-16 23:44:04,501 INFO    MainThread:31004 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-12-16 23:44:05,279 INFO    MainThread:31004 [wandb_run.py:_on_init():2254] communicating current version
+2024-12-16 23:44:06,421 INFO    MainThread:31004 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.19.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-12-16 23:44:06,421 INFO    MainThread:31004 [wandb_init.py:init():804] starting run threads in backend
+2024-12-16 23:44:06,514 INFO    MainThread:31004 [wandb_run.py:_console_start():2233] atexit reg
+2024-12-16 23:44:06,514 INFO    MainThread:31004 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-12-16 23:44:06,515 INFO    MainThread:31004 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-12-16 23:44:06,515 INFO    MainThread:31004 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-12-16 23:44:06,518 INFO    MainThread:31004 [wandb_init.py:init():847] run started, returning control to user process
+2024-12-16 23:45:16,409 WARNING MsgRouterThr:31004 [router.py:message_loop():77] message_loop has been closed

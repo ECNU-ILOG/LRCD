@@ -1,0 +1,56 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-12-16T15:42:27.726499",
+    "startedAt": "2024-12-16T15:42:25.602932",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--method=orcdf",
+        "--train_file=data/SLP-BIO,data/SLP-PHY",
+        "--test_file=data/SLP-MAT",
+        "--seed=0",
+        "--batch_size=256",
+        "--device=cpu",
+        "--epoch=20",
+        "--lr=2.5e-4",
+        "--latent_dim=64",
+        "--inter=kancd",
+        "--ssl_temp=0.5",
+        "--ssl_weight=1e-3",
+        "--flip_ratio=0.15",
+        "--gcn_layers=3",
+        "--keep_prob=1.0",
+        "--weight_decay=0"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "zhouzh",
+    "username": "bless",
+    "executable": "C:\\Users\\bless\\anaconda3\\envs\\bee\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 814.1572227478027,
+            "used": 303.716365814209
+        }
+    },
+    "memory": {
+        "total": 15.730705261230469
+    }
+}
