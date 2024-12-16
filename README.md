@@ -57,6 +57,11 @@ LRCD is not only **model-agnostic but also scenario-agnostic**, meaning it can b
 
 <img src="img/overlap.png"/>
 
+### Transductive CD (Standard Scenarios)
+
+
+<img src="img/standard.png"/>
+
 ## 📰 News 
 - [x] [2024.12.16] Upload the introduction.
 - [x] [2024.12.6] LRCD v1.0 is released.
