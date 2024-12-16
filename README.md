@@ -34,6 +34,8 @@ To address this issue, this paper proposes language representation favored zero-
 
 ## Insights
 
+LRCD is not only **model-agnostic but also scenario-agnostic**, meaning it can be applied across various contexts, including Transductive CD, Inductive CD, Zero-Shot CD and Computerized Adaptive Testing. 
+
 
 ## 📰 News 
 - [x] [2024.12.6] LRCD v1.0 is released.
