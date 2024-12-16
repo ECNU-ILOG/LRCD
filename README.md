@@ -24,7 +24,11 @@ East China Normal University
 
 **Challenge**
 
+Cognitive diagnosis aims to infer students' mastery levels based on their historical response logs. However, existing cognitive diagnosis models (CDMs), which rely on ID embeddings, often have to train specific models on specific domains. This limitation may hinder their directly practical application in various target domains, such as different subjects (e.g., Math, English and Physics) or different education platforms (e.g., ASSISTments, Junyi Academy and Khan Academy).
+
 **Solution**
+
+To address this issue, this paper proposes language representation favored zero-shot cross-domain cognitive diagnosis (LRCD). Specifically, LRCD first analyzes the behavior patterns of students, exercise and concepts in different domains, and then describe the profiles of students, exercises and concepts using textual descriptions. Via recent advanced text-embedding modules, these profiles can be transformed to vectors in the unified language space. Moreover, to address the discrepancy between the language space and the cognitive diagnosis space, we propose language-cognitive mappers in LRCD to learn the mapping from the former to the latter. Then, these profiles can be simply and efficiently integrated and trained with existing CDMs.
 
 **Insights**
 
