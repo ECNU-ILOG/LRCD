@@ -55,6 +55,7 @@ LRCD is not only **model-agnostic but also scenario-agnostic**, meaning it can b
 
 
 ## 📰 News 
+- [x] [2024.12.16] LRCD v1.1 is released.
 - [x] [2024.12.6] LRCD v1.0 is released.
 
 # Requirements	
