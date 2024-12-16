@@ -33,7 +33,7 @@ Cognitive diagnosis aims to infer students' mastery levels based on their histor
 
 ## Solution
 
-To address this issue, this paper proposes language representation favored zero-shot cross-domain cognitive diagnosis (LRCD). Specifically, LRCD first **analyzes the behavior patterns of students, exercise and concepts in different domains, and then describe the profiles of students, exercises and concepts using textual descriptions.** Via recent advanced text-embedding modules, these profiles can be transformed to vectors in the unified language space. Moreover, to address the discrepancy between the language space and the cognitive diagnosis space, we propose **language-cognitive mappers in LRCD to learn the mapping from the former to the latter**. Then, these profiles can be simply and efficiently integrated and trained with existing CDMs.
+To address this issue, this paper proposes language representation favored zero-shot cross-domain cognitive diagnosis (LRCD). Specifically, LRCD first **analyzes the behavior patterns of students, exercise and concepts in different domains, and then describe the profiles of students, exercises and concepts using textual descriptions (TCP).** Via recent advanced text-embedding modules, these profiles can be transformed to vectors in the unified language space. Moreover, to address the discrepancy between the language space and the cognitive diagnosis space, we propose **language-cognitive mappers (LCM) in LRCD to learn the mapping from the former to the latter**. Then, these profiles can be simply and efficiently integrated and trained with existing CDMs.
 
 <p float="left">
   <img src="img/TCP.png" alt="TCP" width="300"/>
