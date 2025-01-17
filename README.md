@@ -110,4 +110,22 @@ Then, you can choose different diagnostic methods based on the provided dataset 
 python main.py --method=orcdf --train_file=data/SLP-BIO,data/SLP-PHY --test_file=data/SLP-MAT --seed=0 --batch_size=256 --device=cuda:0 --epoch=20  --lr=2.5e-4 --latent_dim=64 --inter=kancd --ssl_temp=0.5  --ssl_weight=1e-3  --flip_ratio=0.15 --gcn_layers=3 --keep_prob=1.0 --weight_decay=0
 ```
 
+
+# Reference :thought_balloon:
+
+Shuo Liu, Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian "Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis." In Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2025.
+
+
+
+## Bibtex
+
+```
+@inproceedings{Liu2025LRCD,
+author = {Shuo Liu, Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian},
+booktitle = {Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+title = {Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis},
+year = {2025},
+address={Toronto, Canada}
+}
+```
  
