@@ -61,7 +61,7 @@ LRCD is not only **model-agnostic but also scenario-agnostic**, meaning it can b
 ### Overlap CD (Same Platform, Different Subjects, Overlap Students)
 
 <div align='center'>
-<img src="img/overlap.png"  width="600"/>
+<img src="img/overlap.png"  width="300"/>
 </div>
 
 ### Transductive CD (Standard Scenarios)
