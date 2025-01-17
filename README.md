@@ -47,7 +47,7 @@ LRCD is not only **model-agnostic but also scenario-agnostic**, meaning it can b
 
 ### Zero-Shot CD (Same Platform, Different Subjects)
 
-<img src="img/Table-1.png"/>
+<img src="img/Table-1.png"  width="300"/>
 
 
 ### Zero-Shot CD (Different Platform, Same Subjects)
