@@ -9,7 +9,8 @@
 
 
 
-<img src='img/Framework.svg' />
+<img src="img/Framework.svg" width="300" alt="Framework Image" />
+
 </div>
 
 ------
