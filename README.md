@@ -121,7 +121,7 @@ Shuo Liu, Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian "Language Representatio
 
 ```
 @inproceedings{Liu2025LRCD,
-author = {Shuo Liu, Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian},
+author = {Shuo Liu and Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian},
 booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
 title = {Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis},
 year = {2025},
