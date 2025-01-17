@@ -30,7 +30,10 @@
 Cognitive diagnosis aims to infer students' mastery levels based on their historical response logs. However, existing cognitive diagnosis models (CDMs), **which rely on ID embeddings, often have to train specific models on specific domains. This limitation may hinder their directly practical application in various target domains, such as different subjects (e.g., Math, English and Physics) or different education platforms (e.g., ASSISTments, Junyi Academy and Khan Academy).**
 
 
-<img src="img/ZSCD.svg" width="400" style="display: block; margin: auto;" alt="Framework Image" />
+<div style="text-align: center;">
+    <img src="img/ZSCD.svg" width="400" alt="Framework Image">
+</div>
+
 
 ## Solution
 
