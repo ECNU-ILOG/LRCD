@@ -1,5 +1,5 @@
 <div align='center'>
-<h1>Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis KDD 2025</h1>
+<h1>Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis, KDD 2025</h1>
 <a href='https://aiedu.ecnu.edu.cn/'>Shanghai Institute of AI Education</a>, <a href='http://www.cs.ecnu.edu.cn/'>School of Computer Science and Technology</a>
 
 East China Normal University
