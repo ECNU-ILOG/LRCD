@@ -79,7 +79,7 @@ LRCD is not only **model-agnostic but also scenario-agnostic**, meaning it can b
 
 # Requirements	
 
-```python
+```
 joblib==1.3.2
 numpy==1.24.3
 pandas==2.0.3
