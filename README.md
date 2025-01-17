@@ -49,22 +49,27 @@ To address this issue, this paper proposes language representation favored zero-
 LRCD is not only **model-agnostic but also scenario-agnostic**, meaning it can be applied across various contexts, including Transductive CD, Inductive CD, Zero-Shot CD and Computerized Adaptive Testing. 
 
 ### Zero-Shot CD (Same Platform, Different Subjects)
-
+<div align='center'>
 <img src="img/Table-1.png"  width="600"/>
-
+</div>
 
 ### Zero-Shot CD (Different Platform, Same Subjects)
-
+<div align='center'>
 <img src="img/Table-2.png"  width="600"/>
+</div>
 
 ### Overlap CD (Same Platform, Different Subjects, Overlap Students)
 
+<div align='center'>
 <img src="img/overlap.png"  width="600"/>
+</div>
 
 ### Transductive CD (Standard Scenarios)
 
-
+<div align='center'>
 <img src="img/standard.png"  width="600"/>
+</div>
+
 
 ## 📰 News 
 - [x] [2024.12.16] Upload the introduction.
