@@ -31,7 +31,7 @@ Cognitive diagnosis aims to infer students' mastery levels based on their histor
 
 
 <div align='center'>
-    <img src="img/ZSCD.svg" width="400" alt="Framework Image">
+    <img src="img/ZSCD.svg" width="250" alt="Framework Image">
 </div>
 
 
