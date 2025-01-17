@@ -113,7 +113,7 @@ python main.py --method=orcdf --train_file=data/SLP-BIO,data/SLP-PHY --test_file
 
 # Reference :thought_balloon:
 
-Shuo Liu, Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian "Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis." In Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2025.
+Shuo Liu, Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian "Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis." In Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2025.
 
 
 
@@ -122,7 +122,7 @@ Shuo Liu, Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian "Language Representatio
 ```
 @inproceedings{Liu2025LRCD,
 author = {Shuo Liu, Zihan Zhou, Yuanhao Liu, Jing Zhang, Hong Qian},
-booktitle = {Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
 title = {Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis},
 year = {2025},
 address={Toronto, Canada}
