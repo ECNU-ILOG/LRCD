@@ -47,21 +47,21 @@ LRCD is not only **model-agnostic but also scenario-agnostic**, meaning it can b
 
 ### Zero-Shot CD (Same Platform, Different Subjects)
 
-<img src="img/Table-1.png"  width="300"/>
+<img src="img/Table-1.png"  width="600"/>
 
 
 ### Zero-Shot CD (Different Platform, Same Subjects)
 
-<img src="img/Table-2.png"/>
+<img src="img/Table-2.png"  width="600"/>
 
 ### Overlap CD (Same Platform, Different Subjects, Overlap Students)
 
-<img src="img/overlap.png"/>
+<img src="img/overlap.png"  width="600"/>
 
 ### Transductive CD (Standard Scenarios)
 
 
-<img src="img/standard.png"/>
+<img src="img/standard.png"  width="600"/>
 
 ## 📰 News 
 - [x] [2024.12.16] Upload the introduction.
